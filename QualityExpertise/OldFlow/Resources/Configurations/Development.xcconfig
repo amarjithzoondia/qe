@@ -1,0 +1,25 @@
+//
+//  Development.xcconfig
+// ALNASR
+//
+//  Created by Vivek M on 15/07/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+NAME = DEVELOPMENT
+SHOW_CONFIG_INFO = 1
+
+APP_DISPLAY_NAME = ALNASR
+PRODUCT_BUNDLE_IDENTIFIER = com.zoondia.alnasr.dev
+
+API_SERVICE_ROOT = https:/$()/alnasr-dev.zoondia.org/
+API_SERVICE_FOLDER = api
+API_SECRET_KEY = rFVp8xzrXfufTSNsZPWHudwHgJSJp96Z
+
+AD_APP_ID = ca-app-pub-1037496052432942~1489366012
+AD_UNIT_ID = ca-app-pub-1037496052432942/9028427761
+IS_TEST_AD = 1
+
+GOOGLE_API_KEY = _

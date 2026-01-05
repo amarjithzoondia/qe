@@ -1,0 +1,246 @@
+/* 
+  Localizable.strings
+ ALNASR
+
+  Created by Developer on 20/10/21.
+  
+*/
+
+//MARK:- Common
+"Lorem Ipsum is simply dummy text of the printing and type setting industry." = "Lorem Ipsum is simply dummy text of the printing and type setting industry.";
+
+"OK" = "OK";
+"Alert!" = "Alert!";
+"Error!" = "Error!";
+"Success" = "Success";
+"Validation!" = "Validation!";
+"Clear" = "Clear";
+"No data found" = "No data found";
+"Retry" = "Retry";
+"Invalid" = "Invalid";
+"Required Field" = "Required Field";
+"Password must have at least 6 characters" = "Password must have at least 6 characters";
+"Coming Soon" = "Coming Soon";
+"Info" = "Info";
+
+//MARK:- SIGN IN
+
+"Password" = "Password";
+"Confirm Password" = "Confirm Password";
+"Email Address" = "Email Address";
+"Login" = "Login";
+"Let’s start with Logging in!" = "Let’s start with Logging in!";
+"Forgot your password?" = "Forgot your password?";
+"You don’t have an account?" = "You don’t have an account?";
+"Guest User" = "Guest User";
+"Register here" = "Register here";
+
+//MARK:- REGISTER
+
+"FULL NAME" = "FULL NAME";
+"EMAIL" = "EMAIL";
+"Sign Up" = "Sign Up";
+"CONFIRM PASSWORD" = "CONFIRM PASSWORD";
+"PASSWORD" = "PASSWORD";
+"DESIGNATION" = "DESIGNATION";
+"COMPANY" = "COMPANY";
+"Choose Image" = "Choose image";
+"Select a method" = "Select a method";
+"Gallery" = "Gallery";
+"Camera" = "Camera";
+"Register" = "Register";
+
+//MARK:- OTP
+
+"OTP Verification" = "OTP Verification";
+"Enter Your Code!" = "Enter Your Code!";
+"OTP has been sent to you on your Mobile Number" = "OTP has been sent to you on your Mobile Number ";
+"Didn’t receive the OTP?" = "Didn’t receive the OTP?";
+"RESEND CODE" = "RESEND CODE";
+"Verify & Proceed" = "Verify & Proceed";
+"OTP Verification Failed" = "OTP Verification Failed";
+"Incorrect OTP provided, make sure you enter the correct otp" = "Incorrect OTP provided, make sure you enter the correct otp";
+"Okay" = "Okay";
+
+//MARK:- HOME
+
+"Home" = "Home";
+"View" = "View";
+"Invite Users to" = "Invite Users to";
+"Request Access to" = "Request Access to";
+"Create New" = "Create New";
+"Group" = "Group";
+"Groups" = "Groups";
+"Observations" = "Observations";
+"Drafts" = "Drafts";
+"Create" = "Create";
+"View Drafts" = "View Drafts";
+"Create Observation" = "Create Observation";
+"View Observations" = "View Observations";
+
+
+//MARK:- FORGOT PASSWORD
+
+"Forgot Password" = "Forgot Password";
+"Enter your email address below to reset password" = "Enter your email address below to reset password";
+"Reset Password" = "Reset Password";
+
+//MARK:- CREATE GROUP
+
+"New Group" = "New Group";
+"GROUP TITLE" = "GROUP TITTLE";
+"DESCRIPTION" = "DESCRIPTION";
+"Next" = "Next";
+"This feature requires you to Login" = "This feature requires you to Login";
+"Edit Group" = "Edit Group";
+
+//MARK:- SUCCESS PAGE
+
+"Successfully" = "Successfully";
+"Generated Code" = "Generated Code";
+"Your Code is" = "Your Code is";
+"copy this code" = "copy this code";
+"Invite Users to Group" = "Invite Users to Group";
+
+//MARK:- INVITE
+
+"Invite" = "Invite";
+"Add User" = "Add User";
+"You can invite users to your group by entering their email ID" = "You can invite users to your group by entering their email ID";
+"Add" = "Add";
+"ADDED PEOPLE LIST" = "ADDED PEOPLE LIST";
+"Select Group" ="Select Group";
+"Group invitations successfully sent to given emails" = "Group invitations successfully sent to given emails";
+"Invitations sent!!" = "Invitations sent!!";
+"Given Email is already in List" = "Given Email is already in List";
+
+//MARK:- GROUP LIST
+
+"Search Groups" = "Search Groups";
+
+//MARK:- REQUEST ACCESS
+
+"Group Access Request" = "Group Access Request";
+"Please enter the code to join the Group" = "Please enter the code to join the Group";
+"View Group" = "View Group";
+"Continue" = "Continue";
+"Incorrect Code !!" = "Incorrect Code !!";
+"Group that you requested to join does not exist" = "Group that you requested to join does not exist";
+"Group that you requested to view does not exist" = "Group that you requested to view does not exist";
+
+//MARK:- CREATE OBSERVATION
+
+"Specify a Group" = "Specify a Group";
+"SELECT GROUP" = "SELECT GROUP";
+"Select" = "Select";
+"TITLE" = "TITLE";
+"REPORTED BY" = "REPORTED BY";
+"LOCATION" = "LOCATION";
+"Add Image" = "Add Image";
+"UPLOAD IMAGES" = "UPLOAD IMAGES";
+"Publish" = "Publish";
+"Add Image" = "Add Image";
+"RESPONSIBLE PERSON" = "RESPONSIBLE PERSON";
+"RESPONSIBLE PERSON EMAIL" = "RESPONSIBLE PERSON EMAIL";
+"Select a user" = "Select a user";
+"SEND NOTIFICATION TO" = "SEND NOTIFICATION TO";
+"+ Add User" = "+ Add User";
+"Change user" = "Change user";
+"Image Missing" = "Image Missing";
+"Confirm Exit!" = "Confirm Exit!";
+"Are you sure you want to leave this page, All unsaved changes will be lost" = "Are you sure you want to leave this page, All unsaved changes will be lost";
+"No" = "No";
+"Yes" = "Yes";
+
+//MARK:- USER LIST
+
+"Search User" = "Search User";
+"USER LIST" = "USER LIST";
+"Not Specified" = "Not Specified";
+"Responsibility for all group members" = "Responsibility for all group members";
+"User" = "User";
+
+
+//MARK:- MENU
+
+"Menu" = "Menu";
+"About Us" = "About Us";
+"Contact Us" = "Contact Us";
+"Settings" = "Settings";
+"Terms of use" = "Terms of use";
+"Privacy policy" = "Privacy policy";
+"View Profile" = "View Profile";
+"Log out" = "Log out";
+
+//MARK:- PROFILE
+
+"Name" = "Name";
+"Email" = "Email";
+"Designation" = "Designation";
+"Company Name" = "Company Name";
+"Change Your Password" = "Change Your Password";
+"Save Details" = "Save Details";
+"My Profile" = "My Profile";
+"Edit Profile" = "Edit Profile";
+
+//MARK:- CHANGE PASSWORD
+
+"Old Password" = "Old Password";
+"New Password" = "New Password";
+"Confirm New Password" = "Confirm New Password";
+"Change Password" = "Change Password";
+
+//MARK:- ABOUT US
+
+"Overview" = "Overview";
+"About Us" = "About Us";
+
+//MARK:- CONTACT US
+
+"Contact Us" = "Contact Us";
+"Email Us" = "Email Us";
+"Call Us" = "Call Us";
+"Address" = "Address";
+"Full Name" = "Full Name";
+"Message" = "Message";
+"SEND" = "SEND";
+"Message Posted Successfully" = "Message Posted Successfully";
+
+//MARK:- OBSERVATION LIST
+
+"Observations" = "Observations";
+"Search Observations" = "Search Observations";
+"Export to Excel" = "Export to Excel";
+
+//MARK:- DRAFT LIST
+
+
+//MARK:- PRIVACY POLICY
+
+"Privacy Policy" = "Privacy Policy";
+
+//MARK:- SETTINGS
+
+"Settings" = "Settings";
+"Edit" = "Edit";
+"Company Details" = "Company Details";
+"Enter your Company Name" = "Enter your Company Name";
+"Set Location Of PDF" = "Set Location Of PDF";
+"Pick" = "Pick";
+"Email Notification" = "Email Notification";
+"App Notification" = "App Notification";
+"Disable Email Notification" = "Disable Email Notification";
+"Enable Email Notification" = "Enable Email Notification";
+"Cancel" = "Cancel";
+"Disable" = "Disable";
+"Enable" = "Enable";
+"Disable App Notification" = "Disable App Notification";
+"Enable App Notification" = "Enable App Notification";
+
+//MARK:- GROUP DETAILS
+
+"View" = "View";
+"Participant" = "Participant";
+"Admin" = "Admin";
+
+"Responsible Person Name" = "Responsible Person Name";

@@ -1,0 +1,21 @@
+//
+//  UAT.xcconfig
+// QualityExpertise
+//
+//  Created by Vivek M on 13/01/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+NAME = UAT
+SHOW_CONFIG_INFO = 1
+
+APP_DISPLAY_NAME = QualityExpertise
+PRODUCT_BUNDLE_IDENTIFIER = com.zoondia.rotg.dev
+
+API_SERVICE_ROOT = https:/$()/rotg.zoondia.org/
+API_SERVICE_FOLDER = api
+API_SECRET_KEY = rFVp8xzrXfufTSNsZPWHudwHgJSJp96Z
+
+GOOGLE_API_KEY = _

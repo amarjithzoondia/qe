@@ -1,0 +1,549 @@
+/* 
+  Localizable.strings
+  NowPay
+
+  Created by Developer on 20/10/21.
+  
+*/
+
+//MARK:- Common
+"LOREM_IPSUM" = "Lorem Ipsum is simply dummy text of the printing and type setting industry.";
+
+"OK" = "موافق";
+"ALERT" = "تنبيه!";
+"ERROR" = "خطأ!";
+"SUCCESS" = "نجاح";
+"VALIDATION" = "تصديق!";
+"CLEAR" = "صافي";
+"NO_DATA_FOUND" = "لاتوجد بيانات";
+
+//MARK:- Splash
+"RETRY" = "إعادة المحاولة";
+
+//MARK:- SignUp
+"NAME" = "اسم";
+"PHONE_NUMBER" = "رقم الجوال";
+"COUNTRY" = "الدولة";
+"PASSWORD" = "Password";
+"CONFIRM_PASSWORD" = "Confirm Password";
+"SIGN_IN" = "Sign In";
+"SIGN_IN_TITLE" = "Let’s start with Register !";
+"ALREADY_HAVE_ACCOUNT" = "Already have an account? ";
+"SIGN_UP" = "Sign Up";
+
+
+"SIGN_UP_TITLE" = "Let’s start with Sign In!";
+"SIGN_UP_MESSAGE" = "Hello, welcome back to your account";
+"FORGOT_PASSWORD_QUE" = "Forgot your password?";
+"DONT_HAVE_ACCOUNT_QUE" = "Don’t have an account?";
+
+
+"OTP_TITLE" = "Enter Your Code!";
+"OTP_MESSAGE" = "OTP has been sent to you on your \nMobile Number";
+"VERIFY_AND_PROCEED" = "Verify & Proceed";
+"DIDNT_RECEIVE_THE_OTP" = "Didn’t receive the OTP?";
+"RESEND_CODE" = "RESEND CODE";
+
+"FORGOT_PASSWORD" = "Forgot Password";
+"FORGOT_PASSWORD_MESSAGE" = "Enter your phone number below to reset password";
+"RESET_PASSWORD" = "Reset Password";
+
+//MARK:- HOME
+"HOME" = "الصفحه الرئيسيه";
+
+"TOURISM" = "سياحة";
+"RELIGIOUS" = "ديني";
+"ACTIVITY" = "نشاط";
+"TOURISM_TYPE" = "نوع السياحة";
+
+"TOURISM_SUB_TITLE" = "اكتشف عالم السياحة";
+
+"ENTERTAINMENT" = "ترفيه";
+"ENTERTAINMENT_SUB_TITLE" = "اكتشف ماذا يحدث حولك";
+
+"RESTAURANT" = "مطعم";
+"RESTAURANT_SUB_TITLE" = "ابحث عن الطعام الذي تريده";
+
+//MARK:- Entertainment
+"TRENDING_EVENT" = "الأحداث الأكثر تداولًا";
+"BECOME_A_HOST" = "أصبح مضيفًا";
+"DASHBOARD" = "لوحة المتابعة";
+"REJECTED" = "مرفوض";
+"APPROVED" = "وافق";
+"CONFIRMED" = "مؤكد";
+"CANCELLED" = "ألغيت";
+
+"POPULAR_EVENTS" = "الأحداث الشعبية";
+"POPULAR_EVENTS_SUB_TITLE" = "اكتشف ماذا يحدث حولك";
+
+"MORE" = "المزيد";
+
+"JOIN_FOR_PRIVATE_EVENT" = "الانضمام إلى أحداث خاصّة";
+"INVITE" = "يدعو";
+"NEAREST_EVENTS" = "الأحداث القريبة ";
+"NEAREST_EVENTS_SUB_TITLE" = "اكتشف ماذا يحدث حولك";
+
+"EVENT_LIST" = "قائمة بالأحداث";
+"EVENTS" = "الأحداث";
+"EVENT" = "Event";
+"EVENT_DETAILS" = "تفاصيل الحدث";
+
+"TICKET_DETAILS" = "تفاصيل التذكرة";
+"TICKET_DETAILS_MESSAGE" = "ما التذاكر التي تفضلها؟";
+"PRICE_DETAILS" = "تفاصيل الثمن";
+"PURCHASE" = "شراء";
+
+"DATE" = "التاريخ";
+"LOCATION" = "الموقع";
+"LOCATION_DETAILS" = "تفاصيل الموقع";
+"HOST_DETAILS" = "تفاصيل عن المضيف";
+"BOOK_NOW" = "إحجز الآن";
+
+"SELECT_COUNTRY" = "اختر  الدولة";
+"SEARCH" = "بحث ";
+"COUNTRY_LIST" = "قائمة الدول";
+
+
+"BECOME_AN_OWNER" = "أصبح مالكًا";
+"BECOME_AN_OWNER_MESSAGE" = "Lorem Ipsum is simply dummy text of the printing and type setting industry.";
+
+"REGISTER" = "تسجيل";
+"I_ACCEPT_TERMS_CONDITIONS_PUT_BY_NOWPAY" = "أوافق على الشروط والأحكام التي وضعتها Nowpay";
+
+"I_ACCEPT" = "أقبل";
+"TERMS_CONDITIONS" = "  الشروط والأحكام الت";
+"PUT_BY_NOWPAY" = " وضع بواسطة Nowpay";
+
+"TERMS_CONDITIONS_ALERT" = "الرجاء قبول البنود والشروط للمتابعة";
+"INDIVIDUAL" = "فرد";
+"COMPANY" = "شركة";
+"OWNER_REGISTER_MESSAGE" = "الرجاء إدخال المعلومات";
+
+"S_NUMBER" = "رقم %@";
+"S_EXPIRY_DATE" = "تاريخ إنتهاء صلاحية %@";
+"UPLOAD_S" = "%@ تحميل";
+"S_FRONT_IMAGE" = "%@ الصورة الأمامية";
+"S_BACK_IMAGE" = "%@ الصورة الخلفية";
+
+"HOST_NAME" = "اسم المضيف";
+"ADDRESS" = "العنوان";
+"CONTACT_NUMBER" = "رقم الاتصال";
+"EMAIL_ADDRESS" = "البريد الإلكتروني";
+"BANK_NAME" = "اسم المصرف ";
+"BANK_LOCATION" = "موقع المصرف";
+"IBAN_CODE" = "رمز  الحساب المصرفي الدولي";
+"ACCOUNT_NUMBER" = "رقم الحساب";
+"COMPANY_NAME" = "اسم الشركة";
+"COMPANY_REGISTRATION_NUMBER" = "رقم تسجيل الشركة";
+"COMPANY_VAT_NUMBER" = "رقم ضريبة القيمة المضافة للشركة";
+"UPLOAD_YOUR_COMPANY_REGISTRATION_CERTIFICATE" = "حمل شهادة تسجيل شركتك";
+"ENTER" = "يدخل";
+
+"UPLOAD" = "تحميل";
+"UPLOADING" = "تحميل";
+"UPLOADED" = "تم الرفع";
+"UPLOAD_FAILED" = "التحميل فشل";
+
+"FRONT_SIDE" = "الجانب الامامي";
+"BACK_SIDE" = "الجانب الخلفي";
+
+"BROWSE" = "تصفح";
+"CAPTURE" = "يأسر";
+
+"REMOVE" = "إزالة";
+"SUBMIT" = "تقديم";
+
+
+"OWNER_APPLICATION_STATUS_NOTE" = "ستتلقى إشعارًا عندما يغير المسؤول تطبيقك ليصبح مالكًا";
+"CONTINUE" = "تابع";
+
+"CREATE_EVENT" = "انشاء حدث";
+"START_DATE" = "تاريخ البداية";
+"END_DATE" = "تاريخ الانتهاء";
+"TIME" = "الوقت";
+"START_TIME" = "وقت البدء";
+"END_TIME" = "وقت الانتهاء";
+
+"DESCRIPTION" = "وصف";
+"EVENT_IMAGE" = "صورة الحدث";
+"IMAGE" = "صورة";
+"EVENT_CATEGORY" = "صنف الحدث";
+"SET_LOCATION_MAP" = "تحديد الموقع على الخريطة";
+"SAVE_AND_CONTINUE" = "حفظ ومتابعة";
+"EVENTS_HOSTED" = "أحداث مستضافة";
+
+"TOTAL_EVENTS" = "مجموع الأحداث";
+"TOTAL_BOOKING" = "مجموع الحجوزات";
+"CREATED_EVENTS" = "الأحداث التي تم إنشاؤها";
+"CREATED_EVENTS_SUB_TITLE" = "اكتشف ماذا يحدث حولك";
+"ADD_EVENT" = "إضافة أحداث ";
+"EVENT_TYPE" = "نوع الحدث";
+
+"PRIVATE" = "خاص";
+"PUBLIC" = "عام";
+
+"TICKET_TYPE" = "نوع التذكرة";
+"TICKET" = "تذكرة";
+"PRICE" = "السعر";
+"QUANTITY" = "الكميّة";
+"MAX_TICKETS_PER_USER" = "الحد الأقصى لعدد التذاكر للمستخدم الواحد";
+"SUCCESSFULLY_SAVED" = "تم الحفظ بنجاح";
+"EDIT" = "تعديل";
+"SAVE" = "حفظ";
+"UPDATE" = "تحديث";
+
+"MANAGE_TICKET" = "إدارة التذاكر";
+"ADD_NEW_TICKET" = "إضافة تذكرة جديدة +";
+
+"SUBMIT_EVENT_VALIDATION_MESSAGE" = "حفظ تذكرة واحدة على الأقل للمتابعة";
+"CHECKOUT" = "متابعة";
+
+"OFFER" = "عروض";
+"ADD_CODE" = "إضافة رمز";
+"ORDER_SUMMARY" = "موجز الطلب";
+"ORDER" = "الطلب";
+"DISCOUNT" = "خصومات";
+
+"TOTAL_PRICE" = "إجمالي القيمة";
+"PAYMENT_MODE" = "طريقة الدفع";
+"PROCEED_TO_PAY" = "اتمام الدفع";
+"EVENT_BOOKING_DETAILS" = "تفاصيل الحجز  للحدث ";
+"CANCELLED_BOOKING" = "حجوزات ملغاة";
+
+"BOOKING_LIST" = "قائمة الحجز";
+
+
+//MARK:- SETTINGS
+"SETTINGS" = "الإعدادات";
+"ACCOUNT" = "حساب";
+"DESTINATION" = "الوجهة";
+
+//MARK:- WriteReview
+"MORE_DETAILED_REVIEWS_DESCRIPTION" = "مراجعات أكثر تفصيلا الحصول على رؤية أكثر";
+"REVIEW" = "مراجعة";
+"REVIEW_TITLE_PLACEHOLDER" = "أدخل لقبك";
+"REVIEW_CONTENT" = "المحتوى";
+"REVIEW_CONTENT_PLACEHOLDER" = "أدخل المحتوى الخاص بك";
+
+"RATING" = "تقييم";
+
+"FAVOURITE" = "المفضل";
+
+//MARK:- RESTAURANT
+"TOP_DESTINATIONS" = "الوجهة الأفضل";
+"PRICE_DETAILS_DESCRIPTION" = "إضغط هنا لتفقد تفاصيل الحجز";
+"VIEW_PRICE" = "عرض السعر";
+"RATE_AND_REVIEW" = "تقييم ورأي";
+"CHECK_YOUR_MAIL" = "تحقق من بريدك الالكتروني";
+"CANCEL_BOOKING" = "إلغاء الحجز";
+"PAYMENT_DETAILS" = "تفاصيل الدفع";
+"TRANSACTION_ID" = "رقم تعريف معاملة التحويل";
+"PAYMENT_TYPE" = "نوع الدفع";
+"CARD" = "بطاقة";
+"VIEW_MAP" = "إعرض الخريطة";
+"BOOKING_INFO" = "معلومات الحجز";
+"DATE_AND_TIME" = "التاريخ والوقت";
+
+"HOW_SATISFIED_ARE_YOU_WITH %@" = "ما مدى رضاك %@";
+"VALID_UNTIL " = "صالح حتى تاريخ";
+"TABLE" = "طاولة";
+"PEOPLE" = "أفراد";
+
+"FIND_PLACE_DESCRIPTION" = "اعثر على أفضل مكان هنا!";
+"PLACE_LIST" = "قائمة الأماكن";
+"ALL" = "الجميع";
+"PLACES" = "أماكن";
+"APPLY" = "تطبيق";
+"SEARCH_PLACES" = "أماكن البحث";
+
+"RESTAURANT_LIST" = "قائمة المطاعم";
+"FILTER" = "تصفية";
+
+"CARD_PAYMENT" = "الدفع بالبطاقة";
+
+"BOOK_A_TABLE" = "حجز طاولة";
+"PROCEED" = "متابعة";
+"ADD_PEOPLE" = "إضافة أفراد";
+"TABLE_COUNT" = "عدد الجدول";
+"SELECT_DATE" = "اختيار تاريخ";
+"SLOT_ALERT_TITLE" = "الفترات المتاحة اكتملت لهذا اليوم!";
+"SLOT_ALERT_MESSAGE" = "لا توجد فترات زمنية متاحة لهذا التاريخ";
+"SELECT_A_SLOT_TO_CONTINUE" = "الرجاء تحديد فترة متاحة للمتابعة";
+
+"SPECIAL_DISHES" = "أطباق خاصة -";
+"ITEMS" = "أغراض";
+"MENU" = "قائمة الطعام";
+
+"RESTAURANT_DETAILS" = "تفاصيل المطعم";
+"PER_PERSON" = "للفرد الواحد";
+"TIMING" = "التوقيت";
+"FACILITIES" = "خدمات";
+"GALLERY" = "معرض الصور";
+
+"OVERVIEWS" = "لمحات عامة";
+"REVIEWS" = "المراجعات";
+"ITINERARY" = "مسار الرحلة";
+
+"NEAREST_RESTAURANT" = "أقرب مطعم";
+"SEEK_THE_EATERY_YOU_WANT" = "ابحث عن الطعام الذي تريده";
+
+"POPULAR_RESTAURANT" = "المطاعم الشعبية";
+
+"TRENDING_RESTAURANT" = "المطاعم الأكثر تداولًا";
+
+//MARK:- MORE MENU
+"LOG_OUT" = "تسجيل الخروج";
+"MY_BOOKINGS" = "حجوزاتي";
+"NOTIFICATIONS" = "إشعارات";
+"ANNOUNCEMENTS" = "الإعلانات";
+"ABOUT_US" = "تعرف علينا";
+"CONTACT_US" = "اتصل بنا";
+"EVENT_BOOKING" = "حجز الحدث";
+"TOURISM_BOOKING" = "حجز سياحي";
+"RESTAURANT_BOOKING" = "حجز في مطعم";
+
+"CONTACT_US" = "اتصل بنا";
+"EMAIL_US" = "راسلنا عبر البريد الإلكتروني";
+"CALL_US" = "إتصل بنا";
+
+"BLOCKED" = "منعت";
+
+//MARK:- Entertainment
+"ADMIN_CANCELLED" = "ألغى المسؤول";
+"HOST_CANCELLED" = "تم إلغاء المضيف";
+
+"BOOKING_INFORMATION" = "معلومات عن الحجز";
+"MANAGE_TICKET" = "إدارة التذاكر";
+"REVENUE_STATISTICS" = "إحصاءات العائدات";
+"USER_FEEDBACK" = "آراء المستخدمين";
+"PACKAGE_DETAILS" = "تفاصيل البرنامج";
+
+//MARK:- MODELS
+//MARK:- ENTERTAINMENT
+"TOTAL_EVENT_BOOKING" = "إجمالي حجز الحدث";
+"ACTIVE_BOOKING" = "حجوزات قائمة";
+"CANCEL_BOOKING" = "إلغاء الحجز";
+"BOOKING_DETAILS" = "تفاصيل الحجز ";
+"CONFIRM" = "يتأكد";
+"REMAINING" = "متبقي";
+"CANCEL" = "إلغاء";
+"TOTAL_REVENUE" = "مجموع المدخول";
+"STATISTICS" = "إحصائيات";
+
+"FEEDBACK" = "تقييمك";
+"USER" = "مستخدم";
+
+"INVITE_USER_DESCRIPTION" = "يمكنك دعوة المستخدمين إلى الحزمة الخاصة بك عن طريق إدخال معرف البريد الإلكتروني الخاص بهم";
+"ADDED_PEOPLE_LIST" = "تمت إضافة قائمة الأشخاص";
+"SEND_INVITE" = "إرسال دعوة";
+"ADD" = "يضيف";
+"HOST_EVENT_INVITE_USER_ERROR" = "إدخال مكرر لعنوان البريد الإلكتروني!";
+
+"PHONE" = "الجوال";
+"BOOKING_DATE" = "تاريخ الحجز";
+"STATUS" = "حالة";
+
+"BOOKING_ID" = "معرف الحجز";
+"BOOKED_DATE" = "حجز في التاريخ";
+"BOOKED_SLOT" = "فتحة محجوزة";
+"TOTAL_AMOUNT" = "المبلغ الإجمالي";
+"SCAN_QR_CODE" = "مسح رمز QR";
+
+"EVENT_CURRENTLY_OPEN" = "هل حدثك مفتوح حاليا؟";
+
+"JOIN_FOR_PRIVATE_EVENT" = "الانضمام إلى أحداث خاصّة";
+"JOIN_FOR_PRIVATE_EVENT_MESSAGE" = "يمكنك استخدام هذا الخيار للدخول إلى الحدث الخاص باستخدام رمز سري. للدخول إلى الحدث ، أدخل رمز التفعيل الذي تم إرساله إلى بريدك الإلكتروني.";
+"JOIN_EVENT" = "إنضم إلى الحدث";
+"BOOKING_SUCCESS" = "تم الحجز بنجاح!";
+"TRANSACTION_ID:" = "رقم المعاملة : ";
+"CHECK_OUT_EVENT_SYSTEM_ERROR" = "حدد تذكرة واحدة على الأقل للمتابعة";
+
+"UNTIL" = "";
+
+"COMING_SOON" = "قريبا";
+
+//MARK:- USER
+
+//MARK:- CHANGE PASSWORD
+
+"OLD_PASSWORD" = " كلمة المرور القديمة";
+"NEW_PASSWORD" = "كلمة المرور الجديدة";
+"CONFIRM_NEW_PASSWORD" = "تأكيد كلمة المرور";
+"CHANGE_PASSWORD" = "تغيير كلمة المرور";
+
+//MARK:- PROFILE
+"MY_PROFILE" = "الملف  الشخصي";
+"EDIT_PROFILE" = "تعديل الملف الشخصي";
+"CHOOSE_IMAGE" = "اختر صورة";
+"SELECT_A_METHOD" = "تحديد طريقة";
+"PHOTO_LIBRARY" = "مكتبة الصور";
+"CAMERA" = "الكاميرا";
+
+//MARK:- Tourism
+
+"FROM_DATE" = "من";
+"SELECT_DATE" = "حدد تاريخ";
+"SELECT" = "يختار";
+"TO_DATE" = "إلى";
+
+"ADD_PEOPLE" = "إضافة أفراد";
+"TO_DATE" = "حتي اليوم";
+"TITLE" = "العنوان";
+
+
+"ADD_TIME" = "إضافة الوقت";
+"MAXIUMUM_BOOKING_SLOT" = "الحد الأعلى لعدد الحجوزات / الفترات المتاحة";
+"HOW_MANY_BOOKINGS_CAN_YOU_HAVE_AT_A_TIME" = "كم عدد الحجوزات التي يمكنك الحصول عليها في كل مرة؟";
+"BOOKING_DAYS" = "أيام الحجز";
+"WHEN_IS_THE_ACTIVITY_OPEN" = "متى يكون النشاط مفتوحًا";
+"ADD_TIME_SLOTS" = "إضافة الفترات الزمنية";
+"ADD_INDIVIDUAL_TIME_SLOTS_FOR_YOUR_BOOKINGS" = "أضف فترات زمنية فردية لحجوزاتك";
+"MANAGE_SLOTES" = "إدارة الفترات المتاحة";
+"SLOT %lld" = "فتحة %lld";
+
+"BOOK_ACTIVITY" = "نشاط الكتاب";
+"SELECT_ITEM" = "حدد البند";
+"MAXIMUM_PERSON_COUNT_PER_SLOT" = "الحد الأقصى لعدد الأشخاص لكل فتحة";
+"AMENITIES_FACILITIES" = "المنافع والمرافق";
+"ADD_FACILITIES" = "+ إضافة مرافق";
+"CATEGORY" = "الفئة";
+"MISMATCHING_START_DATE_AND_END_DATE" = "تاريخ البدء وتاريخ الانتهاء غير متطابقين";
+
+"ALL_PACKAGES" = "كل الحزم";
+"VALID_UNTIL" = "صالح حتى";
+
+"SOLD_OUT" = "نفذ";
+"AVAILABLE %lld" = "متوفّر %lld";
+"EXPLORE" = "إستكشف";
+"WHAT_ARE_YOU_LOOKING_FOR" = "عمّ تبحث؟";
+
+"LANGUAGE" = "نفذ";
+"CHANGE_YOUR_LANGUAGE" = "تغيير لغتك";
+"CHANGE_YOUR_LANGUAGE_SWITCHTO_ENGLISH_MESSAGE" = "أهلا! هل تشعر بالرغبة في التغيير إلى اللغة الإنجليزية؟ إليك أفضل طريقة للقيام بذلك ،  إضغط على اللغة الإنجليزية واضغط على تأكيد";
+"CHANGE_YOUR_LANGUAGE_SWITCHTO_ARABIC_MESSAGE" = "أهلا! هل تشعر بالرغبة في التغيير إلى اللغة العربية؟ إليك أفضل طريقة للقيام بذلك ، إضغط على اللغة العربية واضغط على تأكيد";
+
+"DURATION" = "المدّة";
+"ITINERARY_DETAILS" = "مسار الرحلة";
+"CREATE_PACKAGE" = "إنشاء الحزمة";
+"DONE" = "فعله";
+"NOW_PAY_IS_TAKING_SOUDI_ARABIA_AS_DEFAULT_LOCATION" = "تقع NowPay في المملكة العربية السعودية";
+"MANAGE_SLOTS" = "إدارة الفترات المتاحة";
+"ADD_NEW" = "إضافة جديدة";
+"MANAGE_SLOTS_HINT" = "تتيح لك إدارة الفترات المتاحة إدارة أوقات الفتح / الإغلاق وفترات الحجز الفردية لعملائك";
+"PACKAGE_DASHBOARD" = "حزمة لوحة القيادة";
+"PACKAGE_BOOKING_DETAILS" = "التفاصيل المحجوزة";
+"IS_YOUR_PACKAGE_CURRENTLY_OPEN" = "هل برنامجك قيد الاستعمال حاليًا؟";
+"PLUS_PACKAGES" = "  البرامج + ";
+"CREATED_PACKAGES" = "البرامج التي تم إنشاؤها";
+"FIND_OUT_WHAT_IS_HAPPENING_AROUND" = "اكتشف ماذا يحدث حولك";
+"TOTAL_PACKAGE" = "مجموع البرامج";
+"SLASH_PERSON" = "/ فرد ";
+"NIGHT" = "المساء";
+
+"DAY_IMAGE" = "صورة اليوم";
+"PRICE_OF_THE_PACKAGE" = "سعر البرنامج";
+"AMOUNT" = "المبلغ";
+"DAYS" = "أيام";
+"BANNER_IMAGE" = "صورة إعلان";
+"GALLEY_IMAGE" = "صورة لوح";
+"SELECT_START_DATE" = "حدد تاريخ البدء";
+"SELECT_END_DATE" = "حدد تاريخ الانتهاء";
+"DAYS_COUNT_SHOULD_BE_BETWEEN_SELECTED_START_AND_END_DATE" = "يجب أن تكون الأيام المعدودة بين تاريخ البدء المحدد وتاريخ الانتهاء";
+
+"N_NIGHT" = "%lld ليلة";
+"ITINERARY_IMAGE_FOR_DAY_N" = "صورة مسار الرحلة  ليوم %lld";
+"ITINERARY_TITLE_FOR_DAY_N" = "عنوان مسار الرحلة ليوم %lld";
+"ITINERARY_DESCRIPTION_FOR_DAY_N" = "وصف مسار الرحلة ليوم %lld";
+"N_DAYS" = "%lld أيام";
+"DAY_N" = "%lld النهار";
+
+"ARE_YOU_SURE_YOU_WANT_TO_LOGOUT" = "هل أنت متأكد أنك تريد تسجيل الخروج؟";
+"NATIONAL_ID_TYPE" = "نوع الهوية الوطنية";
+"UPLOAD_LICENCE_CERTIFICATE" = "تحميل شهادة الترخيص";
+"MANAGE_TRANSLATION" = "إدارة الترجمة";
+"CHANGE_LANGUAGE" = "تغيير اللغة";
+"EVENT_DASHBOARD" = "لوحة معلومات الحدث";
+"INFO" = "معلومات";
+
+"CONFIRM_LOCATION" = "تأكيد الموقع";
+"ADDRESS_LINE_ONE" = "العنوان السطر 1";
+"STREET" = "شارع";
+"CITY" = "مدينة";
+"STATE" = "ولاية";
+"POSTAL_CODE" = "رمز بريدي";
+"BOOK_PACKAGE" = "حزمة الكتاب";
+"UPDATE_APPLICATION" = "تحديث التطبيق";
+
+"NOT_REGISTERED" = "غير مسجل";
+"PROFILE_COMPLETION_PENDING" = "استكمال ملف التعريف معلق";
+"PENDING" = "بالانتظار";
+"EXPIRED" = "منتهيي الصلاحية";
+
+"EDIT_EVENT" = "تعديل الحدث";
+"TAP_TO_RETRY" = "إضغط لإعادة المحاولة";
+"YOUTUBE_VIDEO_URL" = "رابط فيديو يوتيوب";
+"VIDEO" = "فيديو";
+"PRIVACY_POLICY" = "سياسة الخصوصية";
+
+"AGE" = "عمر";
+"GENDER" = "جنس تذكير أو تأنيث";
+"N_YEARS" = "%lld السنة ";
+"VERIFY" = "تحقق";
+"SAR" = "ريال";
+"PUSH_NOTIFICATIONS" = "إشعارات الرسائل القصيرة";
+"EMAIL_NOTIFICATIONS" = "إشعارات الرسائل الإلكترونية";
+"EDIT_PACKAGE" = "تعديل البرنامج";
+"ARE_YOU_SURE_WANT_TO_CANCEL_THIS_BOOKING" = "هل أنت متأكد من أنك تريد إلغاء هذا الحجز";
+"NATIONALITY" = "جنسية";
+"POPULAR_DESTINATIONS" = "الوجهات الشعبية";
+"LET_S_EXPLORE" = "دعنا نستكشف";
+"THE_WORLD" = "العالم";
+"ACTIVE" = "نشيط";
+"COMPLETED" = "مكتمل";
+"DETAILS" = "تفاصيل";
+"PACKAGE" = "طرد";
+"HOSTED" = "استضافت";
+"REVIEWS" = "المراجعات";
+"PROCEED_TO_PAY" = "مواصلة الدفع";
+"EVENT" = "حدث";
+"REVENUE_DETAILS" = "تفاصيل الإيرادات";
+"YEAR" = "عام";
+
+"%@ IS_REQUIRED" = "%@ مطلوب";
+"REQUIRED_FIELD %@" = "يتطلب حقلا %@";
+"%@ MISMATCH" = "%@ عدم تطابق";
+"PASSWORD_VALIDATION" = "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل";
+"PASSWORD_VALIDATION_DETAILS" = "تحتوي كلمة المرور على 8 أحرف على الأقل مع حرف واحد كبير وحرف صغير ورقم واحد على الأقل.";
+"INVALID %@" = "غير صالح %@";
+"OTP_CODE" = "رمز OTP";
+"URL_ADDRESS" = "عنوان Url";
+
+"RECENT_SEARCHES" = "عمليات البحث الأخيرة";
+"SELECT_PACKAGE" = "حدد الحزمة";
+"CLOSE" = "قريب";
+"UPDATE_PACKAGE" = "حزمة التحديث";
+"N/A" = "غير متاح";
+
+"CURRENTLY_PACKAGES_ARE_NOT_AVAILABLE" = "حاليا ، الحزم غير متوفرة";
+"CURRENTLY_EVENTS_ARE_NOT_AVAILABLE" = "حاليا ، الأحداث غير متوفرة";
+"CURRENTLY_RESTAURANTS_ARE_NOT_AVAILABLE" = "حاليا ، المطاعم غير متوفرة";
+
+"NO_DATES_AVAILABLE" = "لا توجد تواريخ متاحة";
+"PLEASE_CHOOSE_A_START_DATE" = "الرجاء اختيار تاريخ البدء";
+"PLEASE_CHOOSE_NUMBER_OF_PEOPLE" = "الرجاء اختيار عدد الأشخاص";
+
+"PROFILE" = "الملف الشخصي";
+"HOSTED_EVENTS" = "الأحداث المستضافة";
+"PROCEED_TO_REGISTER" = "انتقل إلى التسجيل";
+"ARE_YOU_SURE_TO_CANCEL" = "هل أنت متأكد من الإلغاء؟";
+"YES" = "نعم";
+"EDIT_PACKAGE" = "تحرير الحزمة";
+"MAXIMUM_BOOKING_PER_DAY" = "الحد الأقصى للحجز في اليوم";
+"NO_PACKAGE_AVAILABLE_FOR_START_DATE" = "لا توجد حزمة متاحة لتاريخ البدء";
+"%@%@ TAX" = "ضريبة %@%@";
+"SAR %@" = "%@ ريال";
+"NO_BOOKINGS_AVAILABLE" = "لا حجوزات متاحة";
+"EVENT_ADDRESS" = "عنوان الحدث";
+"COMMISSION" = "لجنة";
+"TAX" = "ضريبة";
+"EARNINGS" = "أرباحك";

@@ -1,0 +1,23 @@
+//
+//  Production.xcconfig
+// ALNASR
+//
+//  Created by Vivek M on 14/07/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+NAME = RELEASE
+SHOW_CONFIG_INFO = 0
+
+APP_DISPLAY_NAME = ALNASR
+PRODUCT_BUNDLE_IDENTIFIER = com.alnasr.app
+API_SERVICE_ROOT = https:/$()/app.alnasruae.com/
+API_SERVICE_FOLDER = api
+API_SECRET_KEY = 1ux89)#spv4nwtf4cp6bpv03jfx5odzvmzo-3l9uxlsunu3nd%
+AD_APP_ID = ca-app-pub-1037496052432942~1489366012
+AD_UNIT_ID = ca-app-pub-1037496052432942/9028427761
+IS_TEST_AD = 0
+
+GOOGLE_API_KEY = _

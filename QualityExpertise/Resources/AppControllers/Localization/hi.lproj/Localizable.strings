@@ -1,0 +1,426 @@
+"logout" = "लॉग आउट";
+"register" = "रजिस्टर";
+"login" = "लॉग इन";
+"coming_soon" = "जल्द आ रहा है";
+"logout_confirmation" = "क्या आप वाकई लॉग आउट करना चाहेंगे?";
+"logout_yes" = "हाँ";
+"facilities_projects" = "सुविधाएं/परियोजनाएं";
+"view_project" = "परियोजना देखें";
+"request_access" = "प्रवेश का अनुरोध करें";
+"create_new" = "नया बनाएँ";
+"invite_users" = "उपयोगकर्ताओं को आमंत्रित करें";
+"open_workflow" = "वर्कफ़्लो खोलें ";
+"project_based_modules" = "परियोजना आधारित मॉड्यूल";
+"audits_and_inspections" = "ऑडिट्स & \nनिरीक्षण";
+"incidents" = "\nघटनाएँ";
+"observation" = "\nनिरिक्षण";
+"permit_to_work" = "काम करने की \nअनुमति";
+"pre_task_briefing" = "प्री-टास्क\nब्रिफ़िंग";
+"toolbox_talk" = "\nटूलबॉक्स टॉक";
+"violation" = "\nउल्लंघन";
+"lesson_learned" = "\nसीखे गए पाठ";
+"facilities_projects" = "सुविधाएं/परियोजनाएं";
+"view_group" = "समूह देखें";
+"request_access" = "प्रवेश का अनुरोध करें";
+"create_new" = "नया बनाएँ";
+"invite_users" = "उपयोगकर्ताओं को आमंत्रित करें";
+
+"login" = "लॉग इन";
+"lets_start_logging_in" = "आइए लॉग इन करना शुरू करें!";
+"forgot_password" = "क्या आपने अपना पासवर्ड भूल गए?";
+"no_account_question" = "क्या आपका कोई खाता नहीं है?";
+"register_here" = "यहाँ रजिस्टर करें";
+"guest_user" = "मेहमान उपयोगकर्ता";
+
+"email_address" = "ई-मेल पता";
+"password" = "पासवर्ड";
+"confirm_password" = "पासवर्ड की पुष्टि करें";
+"sign_up" = "साइन अप";
+"already_have_account?" = "पहले से खाता है?";
+"sign_in" = "साइन इन";
+"register" = "रजिस्टर";
+"choose_image" = "छवि चुनें";
+"select_a_method" = "एक विधि चुनें";
+"gallery" = "गैलेरी";
+"camera" = "कैमरा";
+"full_name" = "पूरा नाम";
+"email" = "ई-मेल";
+"password" = "पासवर्ड";
+"confirm_password" = "पासवर्ड की पुष्टि करें";
+"designation" = "पदनाम";
+"company" = "कंपनी";
+
+"enter_your_code" = "अपना कोड दर्ज करें!";
+"otp_sent_message" = "OTP आपको आपके ई-मेल पर भेजा गया है";
+"verify_and_proceed" = "सत्यापित करें & आगे बढ़ें";
+"didnt_receive_otp" = "OTP नहीं मिला?";
+"resend_code" = "कोड पुनः भेजें";
+"register_nav_title" = "रजिस्टर";
+"otp_verification_failed" = "OTP सत्यापन विफल";
+"incorrect_otp_message" = "गलत OTP दिया गया है, कृपया सही OTP दर्ज करें";
+"okay" = "ठीक है";
+
+"create_observation" = "निरिक्षण बनाएँ";
+"view_observations" = "निरिक्षण देखें";
+"pending_actions" = "लंबित क्रियाएँ";
+"groups" = "समूह";
+
+"view_groups" = "समूह देखें";
+"invite_users_to_group_title" = "उपयोगकर्ताओं को\nसमूह में आमंत्रित करें";
+"request_access_to_group" = "समूह में\nप्रवेश का अनुरोध करें";
+"create_new_group" = "नया\nसमूह बनाएँ";
+"view_observation" = "निरिक्षण देखें";
+"view_drafts" = "ड्राफ्ट देखें";
+"create_observation" = "निरिक्षण बनाएँ";
+"alert" = "चेतावनी!";
+"login_required_message" = "इस फीचर के लिए आपको लॉग इन करना आवश्यक है";
+
+"upload_images" = "छवियाँ अपलोड करें";
+"add_image" = "छवि जोड़ें";
+"publish" = "प्रकाशित करें";
+"save_as_draft" = "ड्राफ्ट के रूप में सहेजें";
+"observation" = "निरिक्षण";
+"confirm_exit" = "प्रस्थान की पुष्टि करें!";
+"confirm_exit_message" = "क्या आप वाकई इस पेज से निकलना चाहेंगे, सभी असमस्य सहेजी नहीं गई बदलाव खो जाएंगे।";
+"no" = "नहीं";
+"yes" = "हाँ";
+"draft_saved" = "ड्राफ्ट सहेजा गया";
+"draft_saved_without_group" = "समूह निर्दिष्ट किये बिना निरिक्षण सफलतापूर्वक ड्राफ़्ट के रूप में सहेजा गया।";
+"draft_saved_message" = "निरिक्षण सफलतापूर्वक ड्राफ़्ट के रूप में सहेजा गया।";
+"observation_created" = "निरिक्षण बनाया गया";
+"observation_created_message" = "निरिक्षण सफलतापूर्वक बनाया गया।";
+"okay" = "ठीक है";
+"specify_a_group" = "एक समूह निर्दिष्ट करें";
+"select_group" = "समूह चुनें";
+"select" = "चुनें";
+"title" = "शीर्षक";
+"reported_by" = "द्वारा रिपोर्ट किया गया";
+"location" = "स्थान";
+"description" = "विवरण";
+"responsible_person" = "जिम्मेदार व्यक्ति";
+"responsible_person_email" = "जिम्मेदार व्यक्ति का ई-मेल";
+"not_specified" = "निर्दिष्ट नहीं";
+"responsibility_for_all" = "सभी समूह सदस्यों के लिए जिम्मेदारी";
+"change_user" = "उपयोगकर्ता बदलें";
+"select_a_user" = "उपयोगकर्ता चुनें";
+"send_notification_to" = "सूचना भेजें";
+"add_user" = "+ उपयोगकर्ता जोड़ें";
+"add_user_" = "उपयोगकर्ता जोड़ें";
+"observation_title" = "निरिक्षण शीर्षक";
+"image" = "छवि";
+"upload" = "अपलोड";
+"search_observations" = "निरिक्षण खोजें";
+"no_observations_found" = "कोई निरिक्षण नहीं मिला";
+"export_to_excel" = "एक्सेल में निर्यात करें";
+"observations" = "निरिक्षण";
+"excel_successfully_saved!" = "एक्सेल सफलतापूर्वक सहेजा गया!";
+"excel_could_not_be_saved" = "एक्सेल सहेजा नहीं जा सका";
+
+"no_data_found" = "कोई डेटा नहीं मिला";
+"close" = "बंद करें";
+"apply" = "लागू करें";
+"filters" = "फिल्टर";
+"clear_all" = "सभी क्लियर करें";
+"date_open" = "खोलने की तिथि";
+"date_close" = "बंद करने की तिथि";
+"open_observations" = "खुले निरिक्षण";
+"closed_observations" = "बंद निरिक्षण";
+"search" = "खोज";
+"no_group" = "कोई समूह नहीं";
+"show_all_observations" = "सभी उन निरिक्षण दिखाएँ जो किसी समूह को निर्दिष्ट नहीं किए गए हैं।";
+
+"status" = "स्थिति";
+"group" = "समूह";
+"observer" = "निरीक्षक";
+"responsible" = "जिम्मेदार";
+"date" = "तिथि";
+"na" = "एन/ए";
+"generate_pdf" = "पीडीएफ़ जनरेट करें";
+"confirm_delete" = "हटाने की पुष्टि!!";
+"delete_confirmation_message" = "क्या आप वाकई इस निरिक्षण को हटाना चाहेंगे?";
+"cancel" = "रद्द करें";
+"continue" = "जारी रखें";
+"image_and_description" = "छवि & विवरण";
+"no_images_found" = "कोई छवियाँ नहीं मिली";
+"reported_by" = "द्वारा रिपोर्ट किया गया";
+"responsible_person" = "जिम्मेदार व्यक्ति";
+"not_specified" = "निर्दिष्ट नहीं";
+"responsibility_all_members" = "सभी समूह सदस्यों के लिए जिम्मेदारी";
+"observation_closeout" = "निरिक्षण समापन";
+"closeout_description" = "समापन विवरण";
+"closed_by" = "द्वारा बंद किया गया";
+"images" = "छवियाँ";
+"close_observation" = "निरिक्षण बंद करें";
+"delete_observation" = "निरिक्षण हटाएँ";
+"pdf_saved_success" = "पीडीएफ़ सफलतापूर्वक सहेजा गया!";
+"pdf_save_failed" = "पीडीएफ़ सहेजा नहीं जा सका";
+"image_with_count" = "छवि %d";
+"description" = "विवरण";
+"observation_images" = "निरिक्षण छवियाँ";
+"add_image" = "छवि जोड़ें";
+"submit" = "जमा करें";
+"close_observation" = "निरिक्षण बंद करें";
+"close_out_description" = "समापन विवरण";
+"upload_images" = "छवियाँ अपलोड करें";
+"please_add_image_first" = "कृपया पहले छवि %@ जोड़ें।";
+
+"no_observations_found" = "कोई निरिक्षण नहीं मिला";
+"observations" = "निरिक्षण";
+"delete_draft" = "ड्राफ़्ट हटाएँ ?";
+"delete_draft_confirmation" = "क्या आप वाकई इस निरिक्षण ड्राफ्ट को हटाना चाहेंगे। यह निरिक्षण स्थायी रूप से हटा दिया जाएगा।";
+"cancel" = "रद्द करें";
+"continue" = "जारी रखें";
+"no_pending_actions_found" = "कोई लंबित क्रिया नहीं मिली";
+"pending_action_label" = "लंबित क्रिया: ";
+"pending_action" = "लंबित क्रिया";
+
+"filter" = "फिल्टर";
+"close" = "बंद करें";
+"apply" = "लागू करें";
+
+"open_observation" = "खुला निरिक्षण";
+"request_to_join_group" = "समूह में शामिल होने का अनुरोध करें";
+"observation_responsibility_change" = "निरिक्षण जिम्मेदारी परिवर्तन";
+"request_to_delete_observation" = "निरिक्षण हटाने का अनुरोध करें";
+"review_observation_closeout" = "निरिक्षण समापन की समीक्षा करें";
+
+"save_details" = "विवरण सहेजें";
+"next" = "अगला";
+"edit_group" = "समूह संपादित करें";
+"new_group" = "नया समूह";
+"choose_image" = "छवि चुनें";
+"select_a_method" = "एक विधि चुनें";
+"gallery" = "गैलेरी";
+"camera" = "कैमरा";
+"group_title" = "समूह शीर्षक";
+"description" = "विवरण";
+
+"your_code_is" = "आपका कोड है";
+"copy_this_code" = "इस कोड की नक़ल करें";
+"invite_users_to_group" = "उपयोगकर्ताओं को \nसमूह में आमंत्रित करें";
+"share_message" = "रिपोर्ट ऑन द गो\n\nआप इस समूह में आमंत्रित हैं\nसमूह का नाम: %@\nसमूह कोड: %@\nउपरोक्त कोड दर्ज करें शामिल होने के लिए\n\nQualityExpertise अभी इंस्टॉल करें";
+
+"no_groups_found" = "कोई समूह नहीं मिला";
+"search_groups" = "समूह खोजें";
+"groups_list" = "समूहों की सूची";
+"invite" = "आमंत्रित करें";
+"groups" = "समूह";
+"apply" = "लागू करें";
+
+"super_admin" = "सुपर एडमिन";
+"admin" = "एडमिन";
+"participant" = "प्रतिभागी";
+
+"handover_super_admin_rights" = "सुपर एडमिन अधिकार सौंपें";
+"delete_group" = "समूह हटाएँ";
+"exit_group" = "समूह छोड़ें";
+"group" = "समूह";
+
+"confirm" = "पुष्टि करें";
+"handover_admin_rights_to_user" = "क्या %@ को एडमिन अधिकार सौंपें?";
+"no" = "नहीं";
+"yes" = "हाँ";
+
+"failed" = "विफल!";
+"okay" = "ठीक है";
+
+"delete_group_title" = "समूह हटाएँ !!";
+"delete_group_warning" = "क्या आप वाकई आगे बढ़ना चाहेंगे? यदि आप जारी रखते हैं, यह कार्य अपरिवर्तनीय है।";
+
+"exit_group_title" = "समूह छोड़ें !!";
+"exit_group_warning" = "क्या आप वाकई इस समूह को छोड़ना चाहेंगे?";
+
+"group_members" = "समूह सदस्य";
+"search_members_placeholder" = "सदस्यों को खोजें ...";
+
+"view" = "देखें";
+"delete_from_list" = "सूची से हटाएँ";
+"change_role" = "भूमिका बदलें";
+
+"select_role" = "भूमिका चुनें";
+"profile" = "प्रोफाइल";
+"no_members_found" = "कोई सदस्य नहीं मिला";
+"full_name" = "पूरा नाम";
+"email" = "ई-मेल";
+"designation" = "पदनाम";
+"company_name" = "कंपनी का नाम";
+
+"invite" = "आमंत्रित करें";
+"add_user_title" = "उपयोगकर्ता जोड़ें";
+"invite_description" = "आप उनके ई-मेल आईडी दर्ज करके समूह में उपयोगकर्ताओं को आमंत्रित कर सकते हैं";
+"email_address" = "ई-मेल पता";
+"add" = "जोड़ें";
+"added_people_list_title" = "जोड़ गए लोगों की सूची";
+"alert" = "चेतावनी!";
+"alert_empty_email" = "कृपया ई-मेल पता दर्ज करें।";
+"alert_invalid_email" = "कृपया एक वैध ई-मेल पता दर्ज करें।";
+"alert_no_email" = "कृपया कम-से-कम एक ई-मेल पता दर्ज करें।";
+"select_group" = "समूह चुनें";
+"invite" = "आमंत्रित करें";
+"invitation_sent" = "आमंत्रण भेजे गए!!";
+"invitation_sent_message" = "समूह आमंत्रण सफलतापूर्वक निर्दिष्ट ई-मेल्स पर भेजे गए।";
+"ok" = "ठीक है";
+
+"group_access_request" = "समूह पहुँच अनुरोध";
+"enter_code_to_join_group" = "कृपया समूह में शामिल होने के लिए कोड दर्ज करें";
+"view_group" = "समूह देखें";
+"continue" = "जारी रखें";
+"request_access" = "पहुँच का अनुरोध करें";
+"incorrect_code" = "गलत कोड !!";
+"group_not_exist_view" = "जिस समूह को आप देखना चाहते हैं, वह मौजूद नहीं है।";
+"okay" = "ठीक है";
+"access_requested" = "पहुँच का अनुरोध किया गया";
+"group_access_requested" = "समूह पहुँच का अनुरोध किया गया";
+"group_not_exist_join" = "जिस समूह में आप शामिल होना चाहते हैं, वह मौजूद नहीं है।";
+"optional" = "(वैकल्पिक)";
+"ENTER" = "प्रवेश करें";
+"Enter" = "प्रवेश करें";
+
+"add_new" = "नया जोड़ें";
+"drafts" = "मसौदे";
+"specify_a_project" = "किसी परियोजना को निर्दिष्ट करें";
+"select_a_project" = "परियोजना चुनें";
+"responsibility_for_all_project" = "सभी परियोजना सदस्यों की ज़िम्मेदारी";
+
+"search_user" = "उपयोगकर्ता खोजें";
+"no_user_found" = "कोई उपयोगकर्ता नहीं मिला";
+"custom_entry" = "कस्टम प्रविष्टि";
+"user_list" = "उपयोगकर्ता सूची";
+"user" = "उपयोगकर्ता";
+"select_one_user_alert" = "कृपया कम से कम एक उपयोगकर्ता चुनें।";
+"enter_valid_mail" = "कृपया एक मान्य ईमेल दर्ज करें";
+"responsible_person_name" = "उत्तरदायी व्यक्ति का नाम";
+"email_address_optional" = "ईमेल पता (वैकल्पिक)";
+
+"no_project" = "कोई प्रोजेक्ट नहीं";
+"no_project_description" = "सभी निरीक्षण दिखाएं जो किसी प्रोजेक्ट से संबंधित नहीं हैं।";
+
+"project" = "प्रोजेक्ट";
+"request_to_join_project" = "प्रोजेक्ट में शामिल होने का अनुरोध";
+
+"open_observation" = "निरीक्षण खोलें";
+"view_report" = "रिपोर्ट देखें";
+"generate_pdf" = "पीडीएफ बनाएं";
+"close_observation" = "निरीक्षण बंद करें";
+"request_responsibility_change" = "निरीक्षण उत्तरदायी व्यक्ति बदलने का अनुरोध";
+"request_delete_observation" = "निरीक्षण हटाने का अनुरोध";
+
+"request_to_join_project" = "प्रोजेक्ट में शामिल होने का अनुरोध";
+"view_profile" = "प्रोफ़ाइल देखें";
+"view_project" = "प्रोजेक्ट देखें";
+
+"observation_responsibility_change" = "निरीक्षण जिम्मेदारी परिवर्तन";
+"request_to_delete_observation" = "निरीक्षण हटाने का अनुरोध";
+"justification" = "औचित्य";
+"na" = "उपलब्ध नहीं";
+"view_observation" = "निरीक्षण देखें";
+"view_justification" = "औचित्य देखें";
+"back" = "वापस";
+
+"review_observation_closeout" = "निरीक्षण समापन की समीक्षा करें";
+"view_observation_closeout" = "निरीक्षण समापन देखें";
+
+"reject" = "अस्वीकार करें";
+"approve" = "स्वीकृत करें";
+
+"pdf_saved_success" = "पीडीएफ सफलतापूर्वक सहेजी गई!";
+"pdf_save_failed" = "पीडीएफ सहेजी नहीं जा सकी";
+"observation_closeout" = "निरीक्षण समापन";
+
+"new_responsible_person" = "नया जिम्मेदार व्यक्ति";
+"remove" = "हटाएं";
+"select_user" = "उपयोगकर्ता चुनें";
+"responsible_person_change_description" = "कृपया बताएं कि आप इस निरीक्षण के जिम्मेदार व्यक्ति को क्यों बदलना चाहते हैं।";
+"observation_delete_description" = "कृपया बताएं कि आप इस निरीक्षण को हटाने का अनुरोध क्यों कर रहे हैं।";
+"handover_admin_rights" = "प्रशासक अधिकार सौंपें";
+"delete_project" = "प्रोजेक्ट हटाएं";
+"handover_admin_rights_to" = "प्रशासक अधिकार %@ को सौंपें?";
+
+"menu" = "मेनू";
+"about_us" = "हमारे बारे में";
+"contact_us" = "हमसे संपर्क करें";
+"settings" = "सेटिंग्स";
+"terms_of_use" = "उपयोग की शर्तें";
+"privacy_policy" = "गोपनीयता नीति";
+"email_us" = "हमें ईमेल करें";
+"address" = "पता";
+
+"settings" = "सेटिंग्स";
+"account" = "खाता";
+"delete_your_account" = "अपना खाता हटाएँ";
+"company_details" = "कंपनी विवरण";
+"company_name" = "कंपनी का नाम";
+"enter_your_company_name" = "अपनी कंपनी का नाम दर्ज करें";
+"save_details" = "विवरण सहेजें";
+"reset_to_default" = "डिफ़ॉल्ट पर रीसेट करें";
+"edit" = "संपादित करें";
+"na" = "उपलब्ध नहीं";
+"choose_image" = "छवि चुनें";
+"select_a_method" = "एक तरीका चुनें";
+"gallery" = "गैलरी";
+"camera" = "कैमरा";
+"download_location_of_pdf" = "पीडीएफ डाउनलोड स्थान";
+"view_location" = "स्थान देखें";
+"view" = "देखें";
+"notifications" = "सूचनाएँ";
+"email_notifications" = "ईमेल सूचनाएँ";
+"app_notifications" = "ऐप सूचनाएँ";
+"email_notification" = "ईमेल सूचना";
+"app_notification" = "ऐप सूचना";
+"disable_email_notification" = "ईमेल सूचना अक्षम करें";
+"enable_email_notification" = "ईमेल सूचना सक्षम करें";
+"disable_app_notification" = "ऐप सूचना अक्षम करें";
+"enable_app_notification" = "ऐप सूचना सक्षम करें";
+"cancel" = "रद्द करें";
+"disable" = "अक्षम करें";
+"enable" = "सक्षम करें";
+"app_language" = "ऐप भाषा";
+"change_app_language" = "ऐप भाषा बदलें";
+"company_details_title" = "कंपनी विवरण";
+"terms_of_use" = "उपयोग की शर्तें";
+"privacy_policy" = "गोपनीयता नीति";
+
+"projects" = "परियोजनाएँ";
+"search_projects" = "परियोजनाएँ खोजें";
+"projects_list" = "परियोजनाओं की सूची";
+"no_projects_found" = "कोई परियोजना नहीं मिली";
+"message" = "संदेश";
+"send" = "भेजें";
+"project_members" = "परियोजना सदस्य";
+"exit_project" = "परियोजना से बाहर निकलें";
+"project_access_request" = "परियोजना प्रवेश अनुरोध";
+"enter_code_to_join_project" = "कृपया परियोजना से जुड़ने के लिए कोड दर्ज करें";
+"incorrect_code" = "गलत कोड !!";
+"project_not_exist_view" = "वह परियोजना जिसे आपने देखने के लिए अनुरोध किया है, मौजूद नहीं है।";
+"project_access_requested" = "परियोजना प्रवेश का अनुरोध किया गया";
+"access_requested_title" = "एक्सेस अनुरोध किया गया";
+"project_not_exist_join" = "वह परियोजना जिसे आपने जुड़ने के लिए अनुरोध किया है, मौजूद नहीं है।";
+"edit_project" = "प्रोजेक्ट संपादित करें";
+"new_project" = "नया प्रोजेक्ट";
+"project_title" = "प्रोजेक्ट शीर्षक";
+
+"invite_users_to_project" = "प्रोजेक्ट में उपयोगकर्ताओं को आमंत्रित करें";
+"share_message_project" = "रिपोर्ट ऑन द गो\n\nआपको Report On The Go iOS में एक प्रोजेक्ट में आमंत्रित किया गया है\nप्रोजेक्ट का नाम: %@\nप्रोजेक्ट कोड: %@\nजुड़ने के लिए ऊपर दिया गया कोड दर्ज करें\n\nअभी QualityExpertise इंस्टॉल करें";
+
+"sucessfully_generated_code" = "सफलतापूर्वक \n कोड जनरेट किया गया";
+"invite_users_to_project" = "आप अपने प्रोजेक्ट में उपयोगकर्ताओं को उनका ईमेल आईडी दर्ज करके आमंत्रित कर सकते हैं";
+"project_invitations_sent" = "प्रोजेक्ट के निमंत्रण सफलतापूर्वक दिए गए ईमेल पर भेजे गए हैं।";
+"select_project" = "प्रोजेक्ट चुनें";
+
+"search_locations" = "स्थान खोजें";
+"locations" = "स्थान";
+"no_locations_found" = "कोई स्थान नहीं मिला";
+
+"description_label" = "विवरण :";
+"no_description" = "कोई विवरण नहीं";
+"client_name_label" = "क्लाइंट का नाम :";
+
+"no_details_found" = "कोई विवरण नहीं मिला";
+"no_notifications_found" = "कोई सूचना नहीं मिली";
+"notification" = "सूचना";
+
+"delete_account" = "खाता हटाएं";
+"enter_otp_sent_to_mail" = "अपने ईमेल पर भेजा गया ओटीपी दर्ज करें";
+"confirm_deletion" = "हटाने की पुष्टि करें!";
+"confirm_deletion_message" = "क्या आप वाकई अपना खाता स्थायी रूप से हटाना चाहते हैं?";
+"notifications" = "सूचनाएँ";

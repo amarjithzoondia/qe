@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="24411" systemVersion="25B78" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AuditItemEntity" representedClassName="AuditItemEntity" syncable="YES">
+        <attribute name="auditItemId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="auditItemTitle" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="updatedTime" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GroupEntity" representedClassName="GroupEntity" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ImageEntity" representedClassName="ImageEntity" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <relationship name="incident" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="IncidentEntity" inverseName="images" inverseEntity="IncidentEntity"/>
+        <relationship name="inspection" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="InspectionEntity" inverseName="images" inverseEntity="InspectionEntity"/>
+        <relationship name="lesson" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="LessonEntity" inverseName="images" inverseEntity="LessonEntity"/>
+        <relationship name="observation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ObservationEntity" inverseName="images" inverseEntity="ObservationEntity"/>
+        <relationship name="preTask" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PreTaskEntity" inverseName="images" inverseEntity="PreTaskEntity"/>
+        <relationship name="toolBox" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ToolBoxEntity" inverseName="images" inverseEntity="ToolBoxEntity"/>
+        <relationship name="violation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ViolationEntity" inverseName="images" inverseEntity="ViolationEntity"/>
+    </entity>
+    <entity name="IncidentEntity" representedClassName="IncidentEntity" syncable="YES">
+        <attribute name="corrections" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="incidentDate" optional="YES" attributeType="String"/>
+        <attribute name="incidentLocation" optional="YES" attributeType="String"/>
+        <attribute name="incidentTime" optional="YES" attributeType="String"/>
+        <attribute name="incidentType" optional="YES" attributeType="Binary"/>
+        <attribute name="injuredEmployees" optional="YES" attributeType="Binary"/>
+        <attribute name="reportedBy" optional="YES" attributeType="String"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="incident" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="InspectionAnswersEntity" representedClassName="InspectionAnswersEntity" syncable="YES">
+        <attribute name="answerType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="inspectionId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="questionId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="InspectionContentsEntity" representedClassName="InspectionContentsEntity" syncable="YES">
+        <attribute name="auditItemId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="contents" optional="YES" attributeType="Binary"/>
+        <attribute name="updatedTime" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InspectionEntity" representedClassName="InspectionEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="equipmentSource" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="formUpdatedTime" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="inspectedBy" optional="YES" attributeType="String"/>
+        <attribute name="inspectionDate" optional="YES" attributeType="String"/>
+        <attribute name="inspectionId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="inspectionName" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="modelNumber" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="questionsUpdatedTime" optional="YES" attributeType="String"/>
+        <attribute name="rentalOrSubContractor" optional="YES" attributeType="String"/>
+        <attribute name="staticEquipmentData" optional="YES" attributeType="Binary"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="inspection" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="LessonEntity" representedClassName="LessonEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reportedBy" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="lesson" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="ObservationEntity" representedClassName="ObservationEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="observationId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="observationTitle" optional="YES" attributeType="String"/>
+        <attribute name="projectResponsiblePerson" optional="YES" attributeType="Binary"/>
+        <attribute name="reportedBy" optional="YES" attributeType="String"/>
+        <attribute name="responsiblePersonEmail" optional="YES" attributeType="String"/>
+        <attribute name="responsiblePersonName" optional="YES" attributeType="String"/>
+        <attribute name="sendNotification" optional="YES" attributeType="Binary"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="observation" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="PreTaskContentsEntity" representedClassName="PreTaskContentsEntity" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="updatedTime" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PreTaskEntity" representedClassName="PreTaskEntity" syncable="YES">
+        <attribute name="attendees" optional="YES" attributeType="Binary"/>
+        <attribute name="contents" optional="YES" attributeType="Binary"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="endTime" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="msraReference" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="otherTopic" optional="YES" attributeType="Binary"/>
+        <attribute name="permitReference" optional="YES" attributeType="String"/>
+        <attribute name="questions" optional="YES" attributeType="Binary"/>
+        <attribute name="reportedBy" optional="YES" attributeType="String"/>
+        <attribute name="sendNotificationTo" optional="YES" attributeType="Binary"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <attribute name="taskTitle" optional="YES" attributeType="String"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="preTask" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="PreTaskQuestionsEntity" representedClassName="PreTaskQuestionsEntity" syncable="YES">
+        <attribute name="contentId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <attribute name="updatedTime" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ToolBoxEntity" representedClassName="ToolBoxEntity" syncable="YES">
+        <attribute name="attendantedEmployees" optional="YES" attributeType="Binary"/>
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="discussionPoints" optional="YES" attributeType="Binary"/>
+        <attribute name="endTime" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="reportedBy" optional="YES" attributeType="String"/>
+        <attribute name="startTime" optional="YES" attributeType="String"/>
+        <attribute name="topic" optional="YES" attributeType="String"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="toolBox" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="ViolationEntity" representedClassName="ViolationEntity" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="String"/>
+        <attribute name="desc" optional="YES" attributeType="String"/>
+        <attribute name="employeeID" optional="YES" attributeType="String"/>
+        <attribute name="employeeName" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="reportedBy" optional="YES" attributeType="String"/>
+        <attribute name="violationDate" optional="YES" attributeType="String"/>
+        <relationship name="facilities" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="GroupEntity"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="ImageEntity" inverseName="violation" inverseEntity="ImageEntity"/>
+    </entity>
+</model>

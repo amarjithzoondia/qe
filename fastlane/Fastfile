@@ -1,0 +1,92 @@
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    # Detect tag
+    tag = sh("git describe --tags --abbrev=0").strip
+    UI.message("🔖 Detected tag: #{tag}")
+
+    # Extract version and env
+    @version = tag.sub(/^v/, "").gsub(/-.*$/, "")
+    @env = tag[/-(\w+)$/, 1] || "prod"
+
+    # Set scheme & bundle ID per env
+    case @env
+    when "dev"
+      @scheme = "Development"
+      @bundle_id = "com.zoondia.alnasr.dev"
+    when "staging"
+      @scheme = "Staging"
+      @bundle_id = "com.zoondia.alnasr.staging"
+    else
+      @scheme = "ALNASR"
+      @bundle_id = "com.alnasr.app"
+    end
+
+    UI.message("🏗  Environment: #{@env}")
+    UI.message("📱 Scheme: #{@scheme}")
+    UI.message("🆔 Bundle ID: #{@bundle_id}")
+    UI.message("🏷️ Version: #{@version}")
+  end
+
+  desc "🚀 Auto build and distribute based on tag"
+  lane :auto do
+    # Increment build numbers
+    increment_build_number(xcodeproj: "ALNASR.xcodeproj")
+    increment_version_number(version_number: @version, xcodeproj: "ALNASR.xcodeproj")
+
+    # Update bundle ID
+    update_app_identifier(
+      xcodeproj: "ALNASR.xcodeproj",
+      plist_path: "ALNASR/Info.plist",
+      app_identifier: @bundle_id
+    )
+
+    # Build the app
+    build_app(
+      scheme: @scheme,
+      export_method: @env == "prod" ? "app-store" : "ad-hoc",
+      output_directory: "build",
+      output_name: "#{@scheme}-#{@version}.ipa",
+      export_options: {
+        provisioningProfiles: {
+          @bundle_id => "#{@scheme} Provisioning Profile"
+        }
+      }
+    )
+
+    # Upload based on environment
+    case @env
+    when "dev"
+      UI.message("📦 Uploading Dev build to Diawi...")
+      result = sh("curl -F 'file=@build/#{@scheme}-#{@version}.ipa' -F 'token=#{ENV['DIAWI_API_KEY']}' https://upload.diawi.com/")
+      UI.message("🌍 Diawi upload result: #{result}")
+    when "staging", "prod"
+      UI.message("🚀 Uploading #{@env} build to App Store Connect...")
+
+      # Use API key if available
+      api_key = nil
+      if ENV["APP_STORE_CONNECT_API_KEY"]
+        api_key = app_store_connect_api_key(
+          key_id: ENV["APP_STORE_CONNECT_API_KEY_ID"],
+          issuer_id: ENV["APP_STORE_CONNECT_API_KEY_ISSUER_ID"],
+          key_filepath: ENV["APP_STORE_CONNECT_API_KEY"]
+        )
+      end
+
+      if @env == "staging"
+        upload_to_testflight(
+          api_key: api_key,
+          skip_waiting_for_build_processing: true,
+          distribute_external: false
+        )
+      else
+        upload_to_app_store(api_key: api_key)
+      end
+    end
+  end
+
+  error do |lane, exception|
+    UI.error("❌ Lane #{lane} failed: #{exception.message}")
+  end
+end

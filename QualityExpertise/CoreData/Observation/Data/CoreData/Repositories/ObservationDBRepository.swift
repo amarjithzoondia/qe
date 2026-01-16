@@ -51,7 +51,7 @@ final class ObservationDBRepository: ObservationDBRepositoryProtocol {
             }
         }
         else {
-            entity.projectResponsiblePerson = nil
+            entity.sendNotification = nil
         }
         
         if let group = observation.facilites {

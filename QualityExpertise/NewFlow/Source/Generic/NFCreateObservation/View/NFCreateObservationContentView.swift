@@ -129,6 +129,12 @@ struct NFCreateObservationContentView: View {
                 let index = imagesDatas.endIndex
                 imagesDatas.append(ImageData.dummy(imageCount: index + 1))
             })
+            .onChange(of: groupData) { _ in
+                isUserActive = false
+                userData = nil
+                isUserActiveForNotification = false
+                userDatas = []
+            }
             .toolbar {
                 BackButtonToolBarItem(action: {
                     showBackButtonalert.toggle()

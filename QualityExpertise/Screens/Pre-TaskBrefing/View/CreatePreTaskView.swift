@@ -201,6 +201,10 @@ struct CreatePreTaskView: View {
         .onChange(of: startTime) { newValue in
             endTime = nil
         }
+        .onChange(of: groupData) { _ in
+            isUserActiveForNotification = false
+            userDatas = []
+        }
         
         .overlay(
             Group {

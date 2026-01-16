@@ -70,7 +70,7 @@ struct CreatePreTaskView: View {
     @State private var showDatePicker: Bool = false
     @State private var showTimePickerForStartTime: Bool = false
     @State private var showTimePickerForEndTime: Bool = false
-    
+    @State private var projectId: String?
 
     
     @StateObject var viewModel: CreatePreTaskViewModel
@@ -201,7 +201,8 @@ struct CreatePreTaskView: View {
         .onChange(of: startTime) { newValue in
             endTime = nil
         }
-        .onChange(of: groupData) { _ in
+        .onChange(of: groupData) { newValue in
+            if newValue?.groupId == projectId { return }
             isUserActiveForNotification = false
             userDatas = []
         }
@@ -1083,6 +1084,7 @@ struct CreatePreTaskView: View {
             self.isUserActiveForNotification = !(preTask.sendNotificationTo?.isEmpty ?? true)
             self.userDatas = preTask.sendNotificationTo
             self.groupData = preTask.facilities
+            self.projectId = preTask.facilities?.groupId
             self.bulkEmployees = preTask.attendees ?? []
             self.manualEmployees = []
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {

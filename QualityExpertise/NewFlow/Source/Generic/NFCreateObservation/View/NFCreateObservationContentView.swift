@@ -40,6 +40,7 @@ struct NFCreateObservationContentView: View {
     @Binding var draftObservation: NFObservationDraftData
     @State var showImage: Bool = false
     @State private var imageData: String?
+    @State private var projectId: String?
     var onObservationCreate: () -> Void
     var body: some View {
         NavigationView {
@@ -129,7 +130,8 @@ struct NFCreateObservationContentView: View {
                 let index = imagesDatas.endIndex
                 imagesDatas.append(ImageData.dummy(imageCount: index + 1))
             })
-            .onChange(of: groupData) { _ in
+            .onChange(of: groupData) { newValue in
+                if newValue?.groupId == projectId { return }
                 isUserActive = false
                 userData = nil
                 isUserActiveForNotification = false
@@ -678,6 +680,7 @@ struct NFCreateObservationContentView: View {
         isGroupView = draftObservation.facilites != nil
         isGroupActive = draftObservation.facilites != nil
         groupData = draftObservation.facilites
+        projectId = draftObservation.facilites?.groupId
         title = draftObservation.observationTitle
         reportedBy = draftObservation.reportedBy
         location = draftObservation.location ?? ""
